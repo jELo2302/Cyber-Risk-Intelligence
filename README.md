@@ -58,7 +58,7 @@ A continuación se presentan las visualizaciones clave del ecosistema de intelig
 * **Clasificación de Conducta:** Agrupación estratégica para el entrenamiento del modelo de Scoring.
 
 #### **E. Geolocalización y Hotspots**
-![Mapa de Riesgo](./images/image_69b716.png)
+![Mapa de Riesgo](dashboard2.png)
 * **Mapeo Espacial:** Identificación visual de los focos críticos (Bogotá, Medellín y Cali).
 * **Inteligencia Territorial:** Sustento visual del test Chi-cuadrado realizado en la Fase I.
 
