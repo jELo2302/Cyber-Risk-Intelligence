@@ -32,13 +32,35 @@ del modelo frente al desbalance de clases delictivas.
 Feature Importance: Análisis de variables clave (ubicación, hora, modalidad) para entender qué factores disparan el riesgo crítico.
 
 3. Parte III: Business Intelligence (Dashboard)
-Ubicación: /dashboards/CyberRisk_Analytics.pbix
+### **3. Parte III: Business Intelligence Deployment (Dashboard)**
+Ubicación: `/dashboards/CyberRisk_Analytics.pbix`
 
-Monitoreo en Tiempo Real: Visualización de la concentración delictiva (Bogotá, Medellín, Cali como focos principales).
+A continuación se presentan las visualizaciones clave del ecosistema de inteligencia de riesgo:
 
-Análisis Comparativo: Evolución de delitos informáticos vs. tradicionales.
+#### **A. Panorama General de Incidentes**
+![Análisis General](./images/image_69ba5a.png)
+* **KPIs Críticos:** Monitoreo de la cantidad total de delitos y su distribución por género.
+* **Segmentación por Arma:** Identificación de los medios utilizados para perfilar la peligrosidad del entorno.
 
-Filtros Dinámicos: Segmentación por género, día de la semana y tipo de arma/modalidad para perfiles de riesgo detallados.
+#### **B. Análisis de Redes y Modalidades**
+![Redes Delictivas](./images/image_69ba39.png)
+* **Grafo de Relaciones:** Visualización de la interconexión entre las modalidades de conducta y los grupos delictivos.
+* **Drivers de Riesgo:** Desglose detallado por "Conducta" para priorizar áreas de intervención.
+
+#### **C. Evolución Temporal y Relacional**
+![Línea de Tiempo](./images/image_69b78d.png)
+* **Análisis Histórico:** Tendencia delictiva a través del tiempo para identificar picos de estacionalidad.
+* **Métricas de Frecuencia:** Comparativa de volumen por tipo de delito.
+
+#### **D. Distribución por Género y Ubicación**
+![Demografía del Riesgo](./images/image_69b754.png)
+* **Perfilamiento de Víctima/Victimario:** Análisis demográfico cruzado para entender la vulnerabilidad.
+* **Clasificación de Conducta:** Agrupación estratégica para el entrenamiento del modelo de Scoring.
+
+#### **E. Geolocalización y Hotspots**
+![Mapa de Riesgo](./images/image_69b716.png)
+* **Mapeo Espacial:** Identificación visual de los focos críticos (Bogotá, Medellín y Cali).
+* **Inteligencia Territorial:** Sustento visual del test Chi-cuadrado realizado en la Fase I.
 
 Tecnologías Utilizadas
 Python 3.x: (Pandas, Numpy, Scikit-Learn, Statsmodels, Geopandas).
