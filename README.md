@@ -38,29 +38,28 @@ Ubicación: `/dashboards/CyberRisk_Analytics.pbix`
 A continuación se presentan las visualizaciones clave del ecosistema de inteligencia de riesgo:
 
 #### **A. Panorama General de Incidentes**
-![Análisis General](./images/image_69ba5a.png)
+![Análisis General](images/dashboard1.png)
 * **KPIs Críticos:** Monitoreo de la cantidad total de delitos y su distribución por género.
 * **Segmentación por Arma:** Identificación de los medios utilizados para perfilar la peligrosidad del entorno.
 
-#### **B. Análisis de Redes y Modalidades**
-![Redes Delictivas](./images/image_69ba39.png)
-* **Grafo de Relaciones:** Visualización de la interconexión entre las modalidades de conducta y los grupos delictivos.
-* **Drivers de Riesgo:** Desglose detallado por "Conducta" para priorizar áreas de intervención.
-
-#### **C. Evolución Temporal y Relacional**
-![Línea de Tiempo](./images/image_69b78d.png)
+#### **B. Evolución Temporal y Relacional**
+![Línea de Tiempo](images/dasboard3.png)
 * **Análisis Histórico:** Tendencia delictiva a través del tiempo para identificar picos de estacionalidad.
 * **Métricas de Frecuencia:** Comparativa de volumen por tipo de delito.
 
-#### **D. Distribución por Género y Ubicación**
-![Demografía del Riesgo](./images/image_69b754.png)
-* **Perfilamiento de Víctima/Victimario:** Análisis demográfico cruzado para entender la vulnerabilidad.
-* **Clasificación de Conducta:** Agrupación estratégica para el entrenamiento del modelo de Scoring.
-
-#### **E. Geolocalización y Hotspots**
+#### **C. Geolocalización y Hotspots**
 ![Mapa de Riesgo](images/dashboard2.png)
 * **Mapeo Espacial:** Identificación visual de los focos críticos (Bogotá, Medellín y Cali).
 * **Inteligencia Territorial:** Sustento visual del test Chi-cuadrado realizado en la Fase I.
+
+#### **D. Dinámica Temporal y Estacionalidad**
+![Análisis Mensual](images/dashboard4.png)
+* **Variación Mensual (MoM):** Monitoreo del flujo delictivo mes a mes para detectar picos de actividad atípicos en el sector.
+* **Crecimiento Orgánico:** Visualización de la tendencia porcentual que facilita la identificación de meses con mayor vulnerabilidad operativa y necesidad de refuerzo en ciberseguridad.
+
+![Análisis Trimestral](images/dashboard5.png)
+* **Agregación Trimestral (QoQ):** Perspectiva macro diseñada para la alta gerencia que permite evaluar el desempeño de las estrategias de mitigación en periodos más amplios.
+* **Suavizado de Volatilidad:** Análisis que elimina el "ruido" de las variaciones diarias para revelar la dirección real del riesgo a mediano plazo en el sector financiero.
 
 Tecnologías Utilizadas
 Python 3.x: (Pandas, Numpy, Scikit-Learn, Statsmodels, Geopandas).
